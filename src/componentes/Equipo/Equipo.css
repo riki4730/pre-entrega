@@ -1,0 +1,23 @@
+.equipo-tarjetas {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+.tarjeta {
+  background-color: white;
+  color: #222;
+  width: 160px;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.tarjeta img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}

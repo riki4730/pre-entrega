@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "nombre": "Remera negra",
+    "precio": 12000,
+    "categoria": "Remeras",
+    "imagen": "remera-negra.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Remera blanca",
+    "precio": 11500,
+    "categoria": "Remeras",
+    "imagen": "remera-blanca.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Jean azul",
+    "precio": 32000,
+    "categoria": "Pantalones",
+    "imagen": "jean-azul.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Buzo gris",
+    "precio": 28000,
+    "categoria": "Buzos",
+    "imagen": "buzo-gris.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Campera negra",
+    "precio": 55000,
+    "categoria": "Camperas",
+    "imagen": "campera-negra.jpg"
+  }
+]

@@ -1,0 +1,66 @@
+.lista-productos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 15px;
+}
+
+.item {
+  background-color: white;
+  width: 220px;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+.item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.item-categoria {
+  color: gray;
+  font-size: 14px;
+}
+
+.item-precio {
+  font-weight: bold;
+  margin: 8px 0;
+}
+
+.item button,
+.formulario button {
+  background-color: #222;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.item button:hover,
+.formulario button:hover {
+  background-color: #555;
+}
+
+.formulario {
+  background-color: white;
+  margin-top: 40px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  max-width: 400px;
+}
+
+.formulario form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.formulario input {
+  padding: 6px;
+}
